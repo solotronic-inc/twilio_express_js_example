@@ -25,5 +25,5 @@ app.listen(port, () => console.log(`Server running on port ${port}`));
 app.get('/', (req, res) => res.send('Hello API'));
 
 // connect the routes to endpoint specified
-const routes = require('./routes/api/data_routes.js'); // import the routes defined in books
-app.use('/', routes); // use /api as the base endpoint path, and routes defined in books 
+const routes = require('./routes/api/data_routes.js'); // import the routes defined in records
+app.use('/api', routes); // use /api as the base endpoint path, and routes defined in records 
