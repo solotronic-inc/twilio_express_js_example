@@ -1,6 +1,12 @@
 # MERN-from-scratch
 
-This project follows the tutorial from: 
+The primary purpose of this project is to abstract the full MERN stack for easy reuse. 
+The secondary purpose is to help me learn.
+The teriary purpose is to build a framework on which to test the Twilio API. 
+
+---------------------------------------------------------------------------------------
+
+This project is based on the tutorial from:
 https://blog.logrocket.com/mern-stack-tutorial/
 
 The tutorial covers:
