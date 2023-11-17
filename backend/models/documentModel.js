@@ -3,7 +3,7 @@
 
 const mongoose = require('mongoose');
 
-const DBSchema = new mongoose.Schema({
+const DocSchema = new mongoose.Schema({
   user: {
     type: String,
     required: false
@@ -14,4 +14,4 @@ const DBSchema = new mongoose.Schema({
   }
 });
 
-module.exports = DBModel = mongoose.model('dbmodel', DBSchema); 
+module.exports = DocModel = mongoose.model('docmodel', DocSchema); 
